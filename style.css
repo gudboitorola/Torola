@@ -1,0 +1,54 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    background: #050505;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+}
+
+/* Hero Section */
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Logo */
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+    letter-spacing: 10px;
+}
+
+/* Tagline */
+p {
+    margin-top: 10px;
+    color: #9a9a9a;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+/* Button */
+.button {
+    margin-top: 40px;
+    padding: 15px 40px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: white;
+    color: black;
+}
